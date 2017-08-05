@@ -33,7 +33,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".CisDatabaseAdminCert" />
-        <activity android:name=".CisNetworkAdminCert"></activity>
+        <activity android:name=".CisNetworkAdminCert" />
+        <activity android:name=".Main2Activity"></activity>
     </application>
 
 </manifest>
