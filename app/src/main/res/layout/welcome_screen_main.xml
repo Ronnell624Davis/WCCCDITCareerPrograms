@@ -17,7 +17,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="46dp"
         android:onClick="tapToViewPrograms"
-        android:text="Tap Here To View Programs"
+        android:text="@string/welcome_button"
         android:textSize="12sp" />
 
     <ImageView
@@ -33,14 +33,14 @@
         android:id="@+id/welcome_text_view"
         android:layout_width="253dp"
         android:layout_height="103dp"
-        android:text="Welcome To Wayne County Community College District ITI Career Programs"
+        android:layout_below="@+id/wcccdImageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:text="@string/welcome_screen"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Title"
         android:textColor="@android:color/white"
         android:textSize="20sp"
-        android:textStyle="normal|bold"
-        android:layout_below="@+id/wcccdImageView"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="32dp" />
+        android:textStyle="normal|bold" />
 </RelativeLayout>
 
