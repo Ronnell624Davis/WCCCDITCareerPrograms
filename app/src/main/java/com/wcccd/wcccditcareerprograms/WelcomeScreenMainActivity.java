@@ -17,6 +17,8 @@ public class WelcomeScreenMainActivity extends AppCompatActivity {
     public void tapToViewPrograms(View view){
         Intent intent = new Intent(this, ProgramListActivity.class);
         startActivity(intent);
+
+        //Ronnell is here testing out the new branch system
     }
 
 }
