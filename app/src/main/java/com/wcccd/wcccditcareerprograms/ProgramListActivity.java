@@ -39,8 +39,28 @@ public class ProgramListActivity extends AppCompatActivity {
                    startActivityForResult(myIntent, 0);
                }
 
+               if (position == 1){
+                   Intent myIntent = new Intent(view.getContext(), CisCybersecurityCert.class);
+                   startActivityForResult(myIntent, 0);
+               }
+
                if (position == 2){
                    Intent myIntent = new Intent(view.getContext(), CisComputerSupportSpecialist.class);
+                   startActivityForResult(myIntent, 0);
+               }
+
+               if (position == 5){
+                   Intent myIntent = new Intent(view.getContext(), CisWebsiteDeveloperCert.class);
+                   startActivityForResult(myIntent, 0);
+               }
+
+               if (position == 6){
+                   Intent myIntent = new Intent(view.getContext(), CisVideoGameDesignAndAnimationCert.class);
+                   startActivityForResult(myIntent, 0);
+               }
+
+               if (position == 8){
+                   Intent myIntent = new Intent(view.getContext(), CisCybersecurityAas.class);
                    startActivityForResult(myIntent, 0);
                }
 
