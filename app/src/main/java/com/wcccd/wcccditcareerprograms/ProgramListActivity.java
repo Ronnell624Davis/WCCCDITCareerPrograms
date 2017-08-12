@@ -39,6 +39,11 @@ public class ProgramListActivity extends AppCompatActivity {
                    startActivityForResult(myIntent, 0);
                }
 
+               if (position == 2){
+                   Intent myIntent = new Intent(view.getContext(), CisComputerSupportSpecialist.class);
+                   startActivityForResult(myIntent, 0);
+               }
+
                // Just uncomment out these codes below once you have created the activities similar
                // to these plugin program classes
                // The code above is a test example that I have done with the "ApplicationDeveloperCert".class in which

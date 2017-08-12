@@ -35,7 +35,8 @@
         <activity android:name=".CisDatabaseAdminCert" />
         <activity android:name=".CisNetworkAdminCert" />
         <activity android:name=".CisAppDeveloperCert" />
-        <activity android:name=".CisInformationSystemsAas"></activity>
+        <activity android:name=".CisInformationSystemsAas" />
+        <activity android:name=".CisComputerSupportSpecialist"></activity>
     </application>
 
 </manifest>
