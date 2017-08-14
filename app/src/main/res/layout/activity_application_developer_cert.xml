@@ -19,13 +19,13 @@
         app:srcCompat="@drawable/logo_wcccd" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/appDevButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/ClickHereButton"
         android:layout_below="@+id/textView2"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="50dp" />
+        android:layout_marginTop="50dp"
+        android:text="@string/TapHereButton" />
 
     <TextView
         android:id="@+id/textView2"

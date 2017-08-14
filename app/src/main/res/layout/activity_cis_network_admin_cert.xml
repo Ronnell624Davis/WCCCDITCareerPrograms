@@ -26,11 +26,11 @@
         android:text="@string/NetworkAdmin_OverView" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/networkAdminButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="50dp"
-        android:text="@string/ClickHereButton" />
+        android:text="@string/TapHereButton" />
 </RelativeLayout>
