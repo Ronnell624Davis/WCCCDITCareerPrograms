@@ -26,11 +26,11 @@
         android:text="@string/ComputerInfoSys_OverView" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/infoSysButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView3"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="50dp"
-        android:text="@string/ClickHereButton" />
+        android:text="@string/TapHereButton" />
 </RelativeLayout>

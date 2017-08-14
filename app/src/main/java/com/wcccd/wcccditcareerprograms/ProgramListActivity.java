@@ -19,7 +19,7 @@ public class ProgramListActivity extends AppCompatActivity {
     @Override
     protected void onCreate (Bundle saveInstanceState) {
         super.onCreate(saveInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_programlist_main);
 
         listView=(ListView)findViewById(R.id.list);
 
