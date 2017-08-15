@@ -4,10 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.wcccd.wcccditcareerprograms.CisNetworkAdminCert">
+    tools:context="com.wcccd.wcccditcareerprograms.CisCyberSecurityAas">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView6"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="@string/CyberSecurAas_OverView" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/imageView6"
         android:layout_width="250dp"
         android:layout_height="220dp"
         android:layout_alignParentTop="true"
@@ -15,22 +25,12 @@
         android:layout_marginTop="29dp"
         app:srcCompat="@drawable/logo_wcccd" />
 
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/imageView4"
-        android:layout_marginTop="30dp"
-        android:gravity="center"
-        android:text="@string/NetworkAdmin_OverView" />
-
     <Button
-        android:id="@+id/networkAdminButton"
+        android:id="@+id/cyberSecuButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/textView6"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="50dp"
+        android:layout_marginTop="50dp"
         android:text="@string/TapHereButton" />
 </RelativeLayout>

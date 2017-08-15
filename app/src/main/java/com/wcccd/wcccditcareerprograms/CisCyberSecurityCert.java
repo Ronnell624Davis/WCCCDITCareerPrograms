@@ -7,20 +7,20 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class CisInformationSystemsAas extends AppCompatActivity {
+public class CisCyberSecurityCert extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_cis_information_systems_aas);
+        setContentView(R.layout.activity_cis_cyber_security_cert);
 
-        Button infoSysBtn = (Button) findViewById(R.id.infoSysButton);
-        infoSysBtn.setOnClickListener(new View.OnClickListener() {
+        Button cyberSecurCertBtn = (Button) findViewById(R.id.cyberSecurCertButton);
+        cyberSecurCertBtn.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v){
 
-                String url = "http://www.wcccd.edu/academic/pdfs/CIS_AAS_PS_7-2016_FINAL.pdf";
+                String url = "http://www.wcccd.edu/academic/pdfs/CIS_Cybersecurity_CERT.pdf";
                 Intent i = new Intent(Intent.ACTION_VIEW);
                 i.setData(Uri.parse(url));
                 startActivity(i);

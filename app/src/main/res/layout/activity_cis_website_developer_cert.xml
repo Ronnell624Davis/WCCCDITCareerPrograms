@@ -4,33 +4,33 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.wcccd.wcccditcareerprograms.CisComputerSupportSpecialist">
+    tools:context="com.wcccd.wcccditcareerprograms.CisWebsiteDeveloperCert">
 
     <ImageView
-        android:id="@+id/imageView5"
+        android:id="@+id/imageView9"
         android:layout_width="250dp"
-        android:layout_height="210dp"
+        android:layout_height="220dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="29dp"
         app:srcCompat="@drawable/logo_wcccd" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/textView9"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="11dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView9"
+        android:layout_marginTop="30dp"
         android:gravity="center"
-        android:text="@string/ComputerSupportSpecialist_Overview"
-        android:layout_below="@+id/imageView5"
-        android:layout_alignParentStart="true" />
+        android:text="@string/WebSiteDev_OverView" />
 
     <Button
-        android:id="@+id/computerSupButton"
+        android:id="@+id/websiteDevButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/TapHereButton"
-        android:layout_below="@+id/textView5"
+        android:layout_below="@+id/textView9"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="11dp" />
+        android:layout_marginTop="50dp"
+        android:text="@string/TapHereButton" />
 </RelativeLayout>

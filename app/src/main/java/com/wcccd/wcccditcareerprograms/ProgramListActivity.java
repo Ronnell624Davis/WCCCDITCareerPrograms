@@ -19,7 +19,7 @@ public class ProgramListActivity extends AppCompatActivity {
     @Override
     protected void onCreate (Bundle saveInstanceState) {
         super.onCreate(saveInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_programlist_main);
 
         listView=(ListView)findViewById(R.id.list);
 
@@ -39,8 +39,43 @@ public class ProgramListActivity extends AppCompatActivity {
                    startActivityForResult(myIntent, 0);
                }
 
+               if (position == 1){
+                   Intent myIntent = new Intent(view.getContext(), CisCyberSecurityCert.class);
+                   startActivityForResult(myIntent, 0);
+               }
+
                if (position == 2){
                    Intent myIntent = new Intent(view.getContext(), CisComputerSupportSpecialist.class);
+                   startActivityForResult(myIntent, 0);
+               }
+
+               if (position == 3) {
+                   Intent myIntent = new Intent(view.getContext(), CisDatabaseAdminCert.class);
+                   startActivityForResult(myIntent, 0);
+               }
+
+               if (position == 4){
+                   Intent myIntent = new Intent(view.getContext(), CisNetworkAdminCert.class);
+                   startActivityForResult(myIntent, 0);
+               }
+
+               if (position == 5){
+                   Intent myIntent = new Intent(view.getContext(), CisWebsiteDeveloperCert.class);
+                   startActivityForResult(myIntent, 0);
+               }
+
+               if (position == 6){
+                   Intent myIntent = new Intent(view.getContext(), CisVideoGameDesignAndAnimationCert.class);
+                   startActivityForResult(myIntent, 0);
+               }
+
+               if (position == 7){
+                   Intent myIntent = new Intent(view.getContext(), CisInformationSystemsAas.class);
+                   startActivityForResult(myIntent, 0);
+               }
+
+               if (position == 8){
+                   Intent myIntent = new Intent(view.getContext(), CisCyberSecurityAas.class);
                    startActivityForResult(myIntent, 0);
                }
 

@@ -7,20 +7,20 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class CisInformationSystemsAas extends AppCompatActivity {
+public class CisWebsiteDeveloperCert extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_cis_information_systems_aas);
+        setContentView(R.layout.activity_cis_website_developer_cert);
 
-        Button infoSysBtn = (Button) findViewById(R.id.infoSysButton);
-        infoSysBtn.setOnClickListener(new View.OnClickListener() {
+        Button webSiteDevBtn = (Button) findViewById(R.id.websiteDevButton);
+        webSiteDevBtn.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v){
 
-                String url = "http://www.wcccd.edu/academic/pdfs/CIS_AAS_PS_7-2016_FINAL.pdf";
+                String url = "http://www.wcccd.edu/academic/pdfs/CIS_Website_Developer%20FINALB.pdf";
                 Intent i = new Intent(Intent.ACTION_VIEW);
                 i.setData(Uri.parse(url));
                 startActivity(i);

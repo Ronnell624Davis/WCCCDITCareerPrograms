@@ -2,10 +2,15 @@
     <string name="app_name">WCCCD IT Career Programs</string>
     <string name="welcome_button">Tap To View Programs</string>
     <string name="welcome_screen">Welcome To Wayne County Community College District ITI Career Programs</string>
-    <string name="ClickHereButton">Click Here For Details</string>
+    <string name="TapHereButton">Tap Here For Details</string>
     <string name="AppDevOverView">The Computer Information Systems: Application Developer certificate is designed to prepare students for mobile application development.</string>
     <string name="DatabaseAdmin_OverView">The Computer Information Systems: Database Administrator certification is designed to give students a technical foundation to design and implement the infrastructure for business solutions using database tools.</string>
     <string name="ComputerInfoSys_OverView">The Computer Information Systems Associate of Applied Science degree program is designed to provide a solid foundation in the fundamental skills that are generally required to analyze system requirements and design solutions, or to support and manage the application of technology resources.</string>
     <string name="NetworkAdmin_OverView">The Computer Information Systems Network Administrator College Certificate is designed to provide a solid foundation in the fundamental skills that are generally required to analyze system requirements and design solutions or, to support and manage the application of technology resources.</string>
+    <string name="ComputerSupportSpecialist_Overview">The Computer Information Systems Computer Support Specialist Short-Term Certificate program is designed to provide a solid foundation in the fundamental skills that are generally required to analyze system requirements and design solutions or to support and manage the application of technology resources.</string>
+    <string name="CyberSecurAas_OverView">This program is based on the National Initiative for Cybersecurity Education (NICE) framework and provide students with a solid foundation in the fundamentals of secure information technology system design, construction, and maintenance of Cyber infrastructure and systems defense.</string>
+    <string name="CyberSecurCert_OverView">This program is based on the National Initiative for Cybersecurity Education (NICE) framework and provide students with a solid foundation in the fundamentals of secure information technology system design, construction, and maintenance of Cyber infrastructure and systems defense.</string>
+    <string name="VideoGameDesign_OverView">The Computer Information Systems Video Game Design and Animation College Certificate is designed to provide a solid foundation in the fundamental skills that are generally required to meet the needs of the video game design, animation and programming field.</string>
+    <string name="WebSiteDev_OverView">The Computer Information Systems Website Developer College Certificate program is designed to prepare students for employment in the area of web design.</string>
     <item name="welcome_text_view" type="id" />
 </resources>
