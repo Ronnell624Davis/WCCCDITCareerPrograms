@@ -17,8 +17,12 @@ public class WelcomeScreenMainActivity extends AppCompatActivity {
     public void tapToViewPrograms(View view){
         Intent intent = new Intent(this, ProgramListActivity.class);
         startActivity(intent);
+    }
 
-        //Ronnell is here testing out the new branch system
+    // Called when the user taps the contact us button
+    public void contactButton(View view){
+        Intent intent = new Intent(this, ContactUsActivity.class);
+        startActivity(intent);
     }
 
 }
