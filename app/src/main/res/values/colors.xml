@@ -3,4 +3,7 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="Tan">#d2b48c</color>
+    <color name="Solitude">#dfecfe</color>
+    <color name="Steel_Blue">#4682b4</color>
 </resources>
