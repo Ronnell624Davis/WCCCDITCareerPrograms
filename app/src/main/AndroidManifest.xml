@@ -18,7 +18,6 @@
         </activity>
         <activity android:name=".ProgramListActivity">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
                 <uses-permission android:name="android.permission.INTERNET" />
 
@@ -27,7 +26,6 @@
         </activity>
         <activity android:name=".ApplicationDeveloperCert">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>

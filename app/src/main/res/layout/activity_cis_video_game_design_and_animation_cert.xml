@@ -22,7 +22,7 @@
         android:layout_below="@+id/imageView8"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="25dp"
-        android:gravity="center"
+        android:gravity="left"
         android:text="@string/VideoGameDesign_OverView"
         android:textSize="30sp" />
 

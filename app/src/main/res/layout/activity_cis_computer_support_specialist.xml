@@ -23,7 +23,7 @@
         android:layout_below="@+id/imageView5"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="25dp"
-        android:gravity="center"
+        android:gravity="left"
         android:text="@string/ComputerSupportSpecialist_Overview"
         android:textSize="30sp" />
 

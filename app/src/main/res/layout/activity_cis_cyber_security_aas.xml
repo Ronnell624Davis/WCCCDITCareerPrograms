@@ -13,7 +13,7 @@
         android:layout_below="@+id/imageView6"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="36dp"
-        android:gravity="center"
+        android:gravity="left"
         android:text="@string/CyberSecurAas_OverView"
         android:textSize="30sp" />
 
