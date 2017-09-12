@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">WCCCD ITI Programs</string>
     <string name="welcome_button">Tap To View Programs</string>
-    <string name="welcome_screen">Welcome To Wayne County Community College District Information Technology Institute Career Programs</string>
+    <string name="welcome_screen">Welcome To Wayne County Community College District Computer Information Systems Career Programs</string>
     <string name="TapHereButton">Tap Here For Details</string>
     <string name="AppDev_OverView">The Computer Information Systems: Application Developer certificate is designed to prepare students for mobile application development.</string>
     <string name="DatabaseAdmin_OverView">The Computer Information Systems: Database Administrator certification is designed to give students a technical foundation to design and implement the infrastructure for business solutions using database tools.</string>
