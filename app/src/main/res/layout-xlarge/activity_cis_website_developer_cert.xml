@@ -8,8 +8,8 @@
 
     <ImageView
         android:id="@+id/imageView9"
-        android:layout_width="@dimen/wcccdImg_width"
-        android:layout_height="@dimen/wcccdImg_height"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="35dp"
@@ -17,22 +17,22 @@
 
     <TextView
         android:id="@+id/textView9"
-        android:layout_width="@dimen/textOverView_width"
-        android:layout_height="@dimen/textOverView_height"
+        android:layout_width="700dp"
+        android:layout_height="163dp"
         android:layout_below="@+id/imageView9"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="@dimen/textOverViewMargin_Top"
+        android:layout_marginTop="27dp"
         android:gravity="left"
         android:text="@string/WebSiteDev_OverView"
-        android:textSize="@dimen/overviewTextSize" />
+        android:textSize="30dp" />
 
     <Button
         android:id="@+id/websiteDevButton"
-        android:layout_width="@dimen/button_width"
-        android:layout_height="@dimen/button_height"
+        android:layout_width="160dp"
+        android:layout_height="90dp"
         android:layout_below="@+id/textView9"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="@dimen/buttonMarginTop"
+        android:layout_marginTop="47dp"
         android:text="@string/TapHereButton"
-        android:textSize="@dimen/nuttonText_Size" />
+        android:textSize="18sp" />
 </RelativeLayout>

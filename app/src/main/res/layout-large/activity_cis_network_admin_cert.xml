@@ -8,31 +8,31 @@
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="255dp"
-        android:layout_height="255dp"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="29dp"
+        android:layout_marginTop="35dp"
         app:srcCompat="@drawable/logo_wcccd" />
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="370dp"
-        android:layout_height="153dp"
+        android:layout_width="550dp"
+        android:layout_height="213dp"
         android:layout_below="@+id/imageView4"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="31dp"
+        android:layout_marginTop="25dp"
         android:gravity="left"
         android:text="@string/NetworkAdmin_OverView"
-        android:textSize="17sp" />
+        android:textSize="25sp" />
 
     <Button
         android:id="@+id/networkAdminButton"
-        android:layout_width="140dp"
-        android:layout_height="60dp"
-        android:layout_below="@+id/textView4"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="21dp"
+        android:layout_width="160dp"
+        android:layout_height="90dp"
         android:text="@string/TapHereButton"
-        android:textSize="12sp" />
+        android:textSize="18sp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>

@@ -10,28 +10,26 @@
 
     <TableRow
         android:id="@+id/tableRow"
-        android:layout_width="412dp"
+        android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="11dp"
         android:layout_weight="0.38"
         android:background="@color/Steel_Blue"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="11dp">
 
         <TextView
             android:id="@+id/cisDepartTextView"
-            android:layout_width="412dp"
+            android:layout_width="765dp"
             android:layout_height="50dp"
             android:layout_above="@+id/contactUsTextView"
             android:layout_centerHorizontal="true"
             android:layout_marginBottom="50dp"
             android:gravity="center_horizontal"
-            android:paddingLeft="25dp"
-            android:paddingTop="6dp"
             android:text="@string/CisGeneral_InfoTitle"
             android:textColor="@android:color/white"
-            android:textSize="28sp"
+            android:textSize="38sp"
             android:textStyle="bold" />
     </TableRow>
 
@@ -47,27 +45,26 @@
 
         <TextView
             android:id="@+id/contactUsTextView"
-            android:layout_width="143dp"
+            android:layout_width="360dp"
             android:layout_height="50dp"
-            android:layout_marginBottom="51dp"
+            android:layout_marginBottom="50dp"
             android:gravity="center_horizontal"
-            android:paddingRight="10dp"
-            android:paddingTop="9dp"
+            android:paddingTop="5dp"
             android:text="@string/ContactUs_TextView"
-            android:textSize="20sp"
+            android:textSize="28sp"
             android:textStyle="bold" />
 
         <TextView
             android:id="@+id/cisProgWcccd.eduTextView"
-            android:layout_width="259dp"
+            android:layout_width="360dp"
             android:layout_height="50dp"
             android:layout_alignParentEnd="true"
             android:autoLink="web"
             android:clickable="true"
             android:gravity="center_horizontal"
-            android:paddingLeft="35dp"
+            android:paddingLeft="50dp"
             android:text="@string/CisPrograms_Contact"
-            android:textSize="20sp"
+            android:textSize="28sp"
             android:textStyle="bold|italic" />
 
     </TableRow>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wcccd.wcccditcareerprograms.CisDatabaseAdminCert">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="@dimen/xlargeLand_Img_width"
+        android:layout_height="@dimen/xlargeLand_Img_height"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="94dp"
+        app:srcCompat="@drawable/logo_wcccd" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="@dimen/xlargeLandTextOverView_width"
+        android:layout_height="213dp"
+        android:gravity="left"
+        android:text="@string/DatabaseAdmin_OverView"
+        android:textSize="30sp"
+        android:layout_above="@+id/dataBaseButton"
+        android:layout_toEndOf="@+id/imageView2"
+        android:layout_marginBottom="21dp" />
+
+    <Button
+        android:id="@+id/dataBaseButton"
+        android:layout_width="@dimen/xlargeLandButton_width"
+        android:layout_height="@dimen/xlargeLandButton_height"
+        android:layout_marginStart="209dp"
+        android:text="@string/TapHereButton"
+        android:textSize="@dimen/xlargeLandButton_textSize"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/imageView2"
+        android:layout_marginBottom="105dp" />
+</RelativeLayout>

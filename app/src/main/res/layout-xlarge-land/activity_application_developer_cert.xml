@@ -11,33 +11,31 @@
     layout for the purpose of this app-->
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="@dimen/wcccdImg_width"
-        android:layout_height="@dimen/wcccdImg_width"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="@dimen/wcccdImgMargin_Top"
+        android:layout_width="@dimen/xlargeLand_Img_width"
+        android:layout_height="@dimen/xlargeLand_Img_height"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
         app:srcCompat="@drawable/logo_wcccd" />
 
     <Button
         android:id="@+id/appDevButton"
-        android:layout_width="@dimen/button_width"
-        android:layout_height="@dimen/button_height"
-        android:layout_below="@+id/textView2"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="@dimen/buttonMarginTop"
+        android:layout_width="@dimen/xlargeLandButton_width"
+        android:layout_height="@dimen/xlargeLandButton_height"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_alignEnd="@+id/textView2"
         android:text="@string/TapHereButton"
-        android:textSize="@dimen/nuttonText_Size" />
+        android:textSize="@dimen/xlargeLandButton_textSize" />
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="@dimen/textOverView_width"
-        android:layout_height="83dp"
-        android:layout_below="@+id/imageView"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="@dimen/textOverViewMargin_Top"
+        android:layout_width="@dimen/xlargeLandTextOverView_width"
+        android:layout_height="233dp"
+        android:layout_above="@+id/appDevButton"
+        android:layout_marginBottom="@dimen/xlargeLandTextOverView_marginBotton"
+        android:layout_toEndOf="@+id/imageView"
         android:gravity="left"
         android:text="@string/AppDev_OverView"
-        android:textSize="17sp" />
+        android:textSize="@dimen/xlargeLandTextOverView_TextSize" />
 
 </RelativeLayout>
 

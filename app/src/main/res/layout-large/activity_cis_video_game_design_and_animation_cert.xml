@@ -8,31 +8,31 @@
 
     <ImageView
         android:id="@+id/imageView8"
-        android:layout_width="@dimen/wcccdImg_width"
-        android:layout_height="@dimen/wcccdImg_height"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="29dp"
+        android:layout_marginTop="35dp"
         app:srcCompat="@drawable/logo_wcccd" />
 
     <TextView
         android:id="@+id/textView8"
-        android:layout_width="@dimen/textOverView_width"
-        android:layout_height="@dimen/textOverView_height"
+        android:layout_width="550dp"
+        android:layout_height="203dp"
         android:layout_below="@+id/imageView8"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="21dp"
         android:gravity="left"
         android:text="@string/VideoGameDesign_OverView"
-        android:textSize="@dimen/overviewTextSize" />
+        android:textSize="25sp" />
 
     <Button
         android:id="@+id/gameDesignButton"
-        android:layout_width="@dimen/button_width"
-        android:layout_height="@dimen/button_height"
-        android:layout_below="@+id/textView8"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="@dimen/buttonMarginTop"
+        android:layout_width="160dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="23dp"
         android:text="@string/TapHereButton"
-        android:textSize="@dimen/nuttonText_Size" />
+        android:textSize="18sp"
+        android:layout_below="@+id/textView8"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>
