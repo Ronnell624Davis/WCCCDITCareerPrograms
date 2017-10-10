@@ -21,7 +21,7 @@
 
         <TextView
             android:id="@+id/cisDepartTextView"
-            android:layout_width="765dp"
+            android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_above="@+id/contactUsTextView"
             android:layout_centerHorizontal="true"
@@ -56,7 +56,7 @@
 
         <TextView
             android:id="@+id/cisProgWcccd.eduTextView"
-            android:layout_width="360dp"
+            android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_alignParentEnd="true"
             android:autoLink="web"

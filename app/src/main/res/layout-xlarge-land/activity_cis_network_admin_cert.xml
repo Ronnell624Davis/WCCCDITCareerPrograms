@@ -10,29 +10,29 @@
         android:id="@+id/imageView4"
         android:layout_width="400dp"
         android:layout_height="400dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="35dp"
-        app:srcCompat="@drawable/logo_wcccd" />
+        app:srcCompat="@drawable/logo_wcccd"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="700dp"
-        android:layout_height="253dp"
-        android:layout_below="@+id/imageView4"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="25dp"
+        android:layout_width="@dimen/xlargeLandTextOverView_width"
+        android:layout_height="293dp"
+        android:layout_alignTop="@+id/imageView4"
+        android:layout_marginBottom="@dimen/xlargeLandTextOverView_marginBotton"
+        android:layout_toEndOf="@+id/imageView4"
         android:gravity="left"
         android:text="@string/NetworkAdmin_OverView"
-        android:textSize="30sp" />
+        android:textSize="@dimen/xlargeLandTextOverView_TextSize" />
 
     <Button
         android:id="@+id/networkAdminButton"
-        android:layout_width="160dp"
-        android:layout_height="90dp"
-        android:text="@string/TapHereButton"
-        android:textSize="18sp"
-        android:layout_marginTop="30dp"
+        android:layout_width="@dimen/xlargeLandButton_width"
+        android:layout_height="@dimen/xlargeLandButton_height"
         android:layout_below="@+id/textView4"
-        android:layout_centerHorizontal="true" />
+        android:layout_marginStart="@dimen/xlargeLandButton_marginStart"
+        android:layout_marginTop="@dimen/xlargeLandButton_marginTop"
+        android:layout_toEndOf="@+id/imageView4"
+        android:text="@string/TapHereButton"
+        android:textSize="18sp" />
 </RelativeLayout>

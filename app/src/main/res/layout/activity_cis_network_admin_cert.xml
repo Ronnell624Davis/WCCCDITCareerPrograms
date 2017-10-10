@@ -8,23 +8,23 @@
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="255dp"
-        android:layout_height="255dp"
+        android:layout_width="205dp"
+        android:layout_height="205dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="29dp"
+        android:layout_marginTop="27dp"
         app:srcCompat="@drawable/logo_wcccd" />
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="370dp"
         android:layout_height="153dp"
-        android:layout_below="@+id/imageView4"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="31dp"
+        android:layout_marginTop="27dp"
         android:gravity="left"
         android:text="@string/NetworkAdmin_OverView"
-        android:textSize="17sp" />
+        android:textSize="17sp"
+        android:layout_below="@+id/imageView4"
+        android:layout_centerHorizontal="true" />
 
     <Button
         android:id="@+id/networkAdminButton"
