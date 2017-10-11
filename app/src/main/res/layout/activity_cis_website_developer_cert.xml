@@ -8,8 +8,8 @@
 
     <ImageView
         android:id="@+id/imageView9"
-        android:layout_width="@dimen/wcccdImg_width"
-        android:layout_height="@dimen/wcccdImg_height"
+        android:layout_width="205dp"
+        android:layout_height="205dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="35dp"
@@ -18,7 +18,7 @@
     <TextView
         android:id="@+id/textView9"
         android:layout_width="@dimen/textOverView_width"
-        android:layout_height="@dimen/textOverView_height"
+        android:layout_height="100dp"
         android:layout_below="@+id/imageView9"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="@dimen/textOverViewMargin_Top"
@@ -30,9 +30,9 @@
         android:id="@+id/websiteDevButton"
         android:layout_width="@dimen/button_width"
         android:layout_height="@dimen/button_height"
+        android:text="@string/TapHereButton"
+        android:textSize="@dimen/nuttonText_Size"
         android:layout_below="@+id/textView9"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="@dimen/buttonMarginTop"
-        android:text="@string/TapHereButton"
-        android:textSize="@dimen/nuttonText_Size" />
+        android:layout_marginTop="27dp" />
 </RelativeLayout>

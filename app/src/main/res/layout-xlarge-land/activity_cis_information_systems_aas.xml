@@ -10,29 +10,28 @@
         android:id="@+id/imageView3"
         android:layout_width="400dp"
         android:layout_height="400dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="35dp"
-        app:srcCompat="@drawable/logo_wcccd" />
+        app:srcCompat="@drawable/logo_wcccd"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="700dp"
-        android:layout_height="253dp"
-        android:layout_below="@+id/imageView3"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="23dp"
+        android:layout_width="@dimen/xlargeLandTextOverView_width"
+        android:layout_height="293dp"
         android:gravity="left"
         android:text="@string/ComputerInfoSys_OverView"
-        android:textSize="30sp" />
+        android:textSize="@dimen/xlargeLandTextOverView_TextSize"
+        android:layout_alignTop="@+id/imageView3"
+        android:layout_toEndOf="@+id/imageView3" />
 
     <Button
         android:id="@+id/infoSysButton"
-        android:layout_width="160dp"
-        android:layout_height="90dp"
-        android:text="@string/TapHereButton"
-        android:textSize="18sp"
+        android:layout_width="@dimen/xlargeLandButton_width"
+        android:layout_height="@dimen/xlargeLandButton_height"
         android:layout_below="@+id/textView3"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="33dp" />
+        android:layout_marginStart="@dimen/xlargeLandButton_marginStart"
+        android:layout_marginTop="@dimen/xlargeLandButton_marginTop"
+        android:layout_toEndOf="@+id/imageView3"
+        android:text="@string/TapHereButton"
+        android:textSize="@dimen/xlargeLandButton_textSize" />
 </RelativeLayout>

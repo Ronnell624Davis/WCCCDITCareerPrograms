@@ -13,44 +13,46 @@
         android:id="@+id/tapToViewButton"
         android:layout_width="160dp"
         android:layout_height="90dp"
-        android:layout_alignStart="@+id/wcccdImageView"
-        android:layout_below="@+id/welcome_text_view"
-        android:layout_marginTop="61dp"
         android:onClick="tapToViewPrograms"
         android:text="@string/welcome_button"
-        android:textSize="18sp" />
+        android:textSize="18sp"
+        android:layout_alignTop="@+id/contactButton"
+        android:layout_toStartOf="@+id/contactButton"
+        android:layout_marginEnd="114dp" />
 
     <ImageView
         android:id="@+id/wcccdImageView"
         android:layout_width="400dp"
         android:layout_height="400dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="35dp"
-        app:srcCompat="@drawable/logo_wcccd" />
+        app:srcCompat="@drawable/logo_wcccd"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="36dp" />
 
     <TextView
         android:id="@+id/welcome_text_view"
-        android:layout_width="483dp"
-        android:layout_height="163dp"
-        android:layout_below="@+id/wcccdImageView"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="35dp"
+        android:layout_width="@dimen/xlargeLandTextOverView_width"
+        android:layout_height="203dp"
+        android:layout_above="@+id/tapToViewButton"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="40dp"
+        android:layout_marginEnd="32dp"
         android:text="@string/welcome_screen"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Title"
         android:textColor="@android:color/white"
-        android:textSize="30sp"
+        android:textSize="35sp"
         android:textStyle="normal|bold" />
 
     <Button
         android:id="@+id/contactButton"
         android:layout_width="160dp"
         android:layout_height="90dp"
-        android:layout_alignEnd="@+id/wcccdImageView"
-        android:layout_alignTop="@+id/tapToViewButton"
         android:onClick="contactButton"
         android:text="@string/ContactButton"
-        android:textSize="18sp" />
+        android:textSize="18sp"
+        android:layout_alignBottom="@+id/wcccdImageView"
+        android:layout_alignEnd="@+id/welcome_text_view"
+        android:layout_marginEnd="68dp" />
 </RelativeLayout>
 

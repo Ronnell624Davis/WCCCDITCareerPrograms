@@ -8,8 +8,8 @@
 
     <ImageView
         android:id="@+id/imageView5"
-        android:layout_width="@dimen/wcccdImg_width"
-        android:layout_height="@dimen/wcccdImg_height"
+        android:layout_width="205dp"
+        android:layout_height="205dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="@dimen/wcccdImgMargin_Top"
@@ -19,21 +19,20 @@
         android:id="@+id/textView5"
         android:layout_width="@dimen/textOverView_width"
         android:layout_height="163dp"
-        android:layout_alignParentStart="false"
-        android:layout_below="@+id/imageView5"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="@dimen/textOverViewMargin_Top"
         android:gravity="left"
         android:text="@string/ComputerSupportSpecialist_Overview"
-        android:textSize="@dimen/overviewTextSize" />
+        android:textSize="@dimen/overviewTextSize"
+        android:layout_marginTop="27dp"
+        android:layout_below="@+id/imageView5"
+        android:layout_centerHorizontal="true" />
 
     <Button
         android:id="@+id/computerSupButton"
         android:layout_width="@dimen/button_width"
         android:layout_height="@dimen/button_height"
-        android:layout_below="@+id/textView5"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="@dimen/buttonMarginTop"
         android:text="@string/TapHereButton"
-        android:textSize="@dimen/nuttonText_Size" />
+        android:textSize="@dimen/nuttonText_Size"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="22dp" />
 </RelativeLayout>

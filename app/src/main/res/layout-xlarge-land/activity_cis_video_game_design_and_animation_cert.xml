@@ -8,31 +8,31 @@
 
     <ImageView
         android:id="@+id/imageView8"
-        android:layout_width="400dp"
-        android:layout_height="400dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="35dp"
+        android:layout_width="@dimen/xlargeLand_Img_width"
+        android:layout_height="@dimen/xlargeLand_Img_height"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@+id/textView8"
         app:srcCompat="@drawable/logo_wcccd" />
 
     <TextView
         android:id="@+id/textView8"
-        android:layout_width="700dp"
-        android:layout_height="233dp"
-        android:layout_below="@+id/imageView8"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="25dp"
+        android:layout_width="@dimen/xlargeLandTextOverView_width"
+        android:layout_height="285dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/imageView8"
+        android:layout_marginBottom="@dimen/xlargeLandTextOverView_marginBotton"
         android:gravity="left"
         android:text="@string/VideoGameDesign_OverView"
-        android:textSize="30sp" />
+        android:textSize="@dimen/xlargeLandTextOverView_TextSize" />
 
     <Button
         android:id="@+id/gameDesignButton"
-        android:layout_width="160dp"
-        android:layout_height="90dp"
-        android:layout_marginTop="37dp"
-        android:text="@string/TapHereButton"
-        android:textSize="18sp"
+        android:layout_width="@dimen/xlargeLandButton_width"
+        android:layout_height="@dimen/xlargeLandButton_height"
+        android:layout_alignStart="@+id/textView8"
         android:layout_below="@+id/textView8"
-        android:layout_centerHorizontal="true" />
+        android:layout_marginStart="@dimen/xlargeLandButton_marginStart"
+        android:layout_marginTop="@dimen/xlargeLandButton_marginTop"
+        android:text="@string/TapHereButton"
+        android:textSize="18sp" />
 </RelativeLayout>

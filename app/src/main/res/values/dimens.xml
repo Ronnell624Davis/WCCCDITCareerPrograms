@@ -21,4 +21,5 @@
     <dimen name="xlargeLandTextOverView_width">600dp</dimen>
     <dimen name="xlargeLandTextOverView_marginBotton">23dp</dimen>
     <dimen name="xlargeLandTextOverView_TextSize">30sp</dimen>
+    <dimen name="xlargeLandButton_marginTop">70dp</dimen>
 </resources>

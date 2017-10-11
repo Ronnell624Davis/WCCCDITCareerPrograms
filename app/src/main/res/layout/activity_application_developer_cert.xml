@@ -11,8 +11,8 @@
     layout for the purpose of this app-->
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="@dimen/wcccdImg_width"
-        android:layout_height="@dimen/wcccdImg_width"
+        android:layout_width="205dp"
+        android:layout_height="205dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="@dimen/wcccdImgMargin_Top"
@@ -33,7 +33,6 @@
         android:layout_width="@dimen/textOverView_width"
         android:layout_height="83dp"
         android:layout_below="@+id/imageView"
-        android:layout_centerHorizontal="true"
         android:layout_marginTop="@dimen/textOverViewMargin_Top"
         android:gravity="left"
         android:text="@string/AppDev_OverView"

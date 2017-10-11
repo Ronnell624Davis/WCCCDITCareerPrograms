@@ -11,20 +11,20 @@
 
     <Button
         android:id="@+id/tapToViewButton"
-        android:layout_width="140dp"
-        android:layout_height="60dp"
-        android:layout_marginTop="53dp"
+        android:layout_width="130dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="24dp"
         android:onClick="tapToViewPrograms"
         android:text="@string/welcome_button"
         android:textSize="12sp"
         android:layout_below="@+id/welcome_text_view"
-        android:layout_alignStart="@+id/welcome_text_view"
-        android:layout_marginStart="25dp" />
+        android:layout_alignStart="@+id/welcome_text_view" />
 
     <ImageView
         android:id="@+id/wcccdImageView"
-        android:layout_width="255dp"
-        android:layout_height="255dp"
+        android:layout_width="205dp"
+        android:layout_height="205dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="35dp"
@@ -32,27 +32,27 @@
 
     <TextView
         android:id="@+id/welcome_text_view"
-        android:layout_width="373dp"
-        android:layout_height="92dp"
-        android:layout_marginTop="42dp"
+        android:layout_width="360dp"
+        android:layout_height="105dp"
+        android:layout_below="@+id/wcccdImageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
         android:text="@string/welcome_screen"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Title"
         android:textColor="@android:color/white"
         android:textSize="21sp"
-        android:textStyle="normal|bold"
-        android:layout_below="@+id/wcccdImageView"
-        android:layout_centerHorizontal="true" />
+        android:textStyle="normal|bold" />
 
     <Button
         android:id="@+id/contactButton"
-        android:layout_width="140dp"
-        android:layout_height="60dp"
+        android:layout_width="130dp"
+        android:layout_height="55dp"
+        android:layout_alignEnd="@+id/welcome_text_view"
+        android:layout_alignTop="@+id/tapToViewButton"
+        android:layout_marginEnd="28dp"
         android:onClick="contactButton"
         android:text="@string/ContactButton"
-        android:textSize="12sp"
-        android:layout_alignTop="@+id/tapToViewButton"
-        android:layout_alignEnd="@+id/welcome_text_view"
-        android:layout_marginEnd="18dp" />
+        android:textSize="12sp" />
 </RelativeLayout>
 
