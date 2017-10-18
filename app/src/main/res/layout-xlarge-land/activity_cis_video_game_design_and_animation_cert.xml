@@ -10,29 +10,28 @@
         android:id="@+id/imageView8"
         android:layout_width="@dimen/xlargeLand_Img_width"
         android:layout_height="@dimen/xlargeLand_Img_height"
+        app:srcCompat="@drawable/logo_wcccd"
         android:layout_centerVertical="true"
-        android:layout_toStartOf="@+id/textView8"
-        app:srcCompat="@drawable/logo_wcccd" />
+        android:layout_alignParentStart="true" />
 
     <TextView
         android:id="@+id/textView8"
-        android:layout_width="@dimen/xlargeLandTextOverView_width"
+        android:layout_width="590dp"
         android:layout_height="285dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignTop="@+id/imageView8"
-        android:layout_marginBottom="@dimen/xlargeLandTextOverView_marginBotton"
         android:gravity="left"
         android:text="@string/VideoGameDesign_OverView"
-        android:textSize="@dimen/xlargeLandTextOverView_TextSize" />
+        android:textSize="@dimen/xlargeLandTextOverView_TextSize"
+        android:layout_alignTop="@+id/imageView8"
+        android:layout_toEndOf="@+id/imageView8" />
 
     <Button
         android:id="@+id/gameDesignButton"
         android:layout_width="@dimen/xlargeLandButton_width"
         android:layout_height="@dimen/xlargeLandButton_height"
-        android:layout_alignStart="@+id/textView8"
-        android:layout_below="@+id/textView8"
-        android:layout_marginStart="@dimen/xlargeLandButton_marginStart"
-        android:layout_marginTop="@dimen/xlargeLandButton_marginTop"
+        android:layout_marginStart="215dp"
+        android:layout_marginTop="45dp"
         android:text="@string/TapHereButton"
-        android:textSize="18sp" />
+        android:textSize="18sp"
+        android:layout_below="@+id/textView8"
+        android:layout_toEndOf="@+id/imageView8" />
 </RelativeLayout>

@@ -8,31 +8,31 @@
 
     <TextView
         android:id="@+id/textView6"
-        android:layout_width="@dimen/textOverView_width"
-        android:layout_height="@dimen/textOverView_height"
-        android:gravity="left"
-        android:text="@string/CyberSecurAas_OverView"
-        android:textSize="@dimen/overviewTextSize"
+        android:layout_width="310dp"
+        android:layout_height="173dp"
         android:layout_below="@+id/imageView6"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="30dp" />
+        android:layout_marginTop="15dp"
+        android:gravity="left"
+        android:text="@string/CyberSecurAas_OverView"
+        android:textSize="17sp" />
 
     <ImageView
         android:id="@+id/imageView6"
-        android:layout_width="205dp"
-        android:layout_height="205dp"
+        android:layout_width="215dp"
+        android:layout_height="215dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="@dimen/wcccdImgMargin_Top"
+        android:layout_marginTop="22dp"
         app:srcCompat="@drawable/logo_wcccd" />
 
     <Button
         android:id="@+id/cyberSecuButton"
-        android:layout_width="@dimen/button_width"
-        android:layout_height="@dimen/button_height"
+        android:layout_width="130dp"
+        android:layout_height="49dp"
+        android:layout_below="@+id/textView6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
         android:text="@string/TapHereButton"
-        android:textSize="@dimen/nuttonText_Size"
-        android:layout_marginBottom="28dp"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
+        android:textSize="11sp" />
 </RelativeLayout>

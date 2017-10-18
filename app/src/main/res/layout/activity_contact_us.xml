@@ -21,17 +21,17 @@
 
         <TextView
             android:id="@+id/cisDepartTextView"
-            android:layout_width="385dp"
+            android:layout_width="360dp"
             android:layout_height="50dp"
             android:layout_above="@+id/contactUsTextView"
             android:layout_centerHorizontal="true"
             android:layout_marginBottom="50dp"
             android:gravity="center_horizontal"
-            android:paddingLeft="11dp"
-            android:paddingTop="6dp"
+            android:paddingLeft="9dp"
+            android:paddingTop="9dp"
             android:text="@string/CisGeneral_InfoTitle"
             android:textColor="@android:color/white"
-            android:textSize="28sp"
+            android:textSize="22sp"
             android:textStyle="bold" />
     </TableRow>
 
@@ -47,14 +47,14 @@
 
         <TextView
             android:id="@+id/contactUsTextView"
-            android:layout_width="133dp"
+            android:layout_width="113dp"
             android:layout_height="50dp"
             android:layout_marginBottom="51dp"
             android:gravity="center_horizontal"
-            android:paddingRight="10dp"
-            android:paddingTop="9dp"
+            android:paddingRight="7dp"
+            android:paddingTop="11dp"
             android:text="@string/ContactUs_TextView"
-            android:textSize="20sp"
+            android:textSize="17sp"
             android:textStyle="bold" />
 
         <TextView
@@ -65,9 +65,10 @@
             android:autoLink="web"
             android:clickable="true"
             android:gravity="center_horizontal"
-            android:paddingLeft="18dp"
+            android:paddingLeft="4dp"
+            android:paddingTop="9dp"
             android:text="@string/CisPrograms_Contact"
-            android:textSize="20sp"
+            android:textSize="17sp"
             android:textStyle="bold|italic" />
 
     </TableRow>

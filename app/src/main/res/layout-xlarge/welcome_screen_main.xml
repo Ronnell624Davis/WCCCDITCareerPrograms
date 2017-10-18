@@ -32,7 +32,7 @@
     <TextView
         android:id="@+id/welcome_text_view"
         android:layout_width="483dp"
-        android:layout_height="163dp"
+        android:layout_height="190dp"
         android:layout_below="@+id/wcccdImageView"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="35dp"
@@ -40,7 +40,7 @@
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Title"
         android:textColor="@android:color/white"
-        android:textSize="30sp"
+        android:textSize="35sp"
         android:textStyle="normal|bold" />
 
     <Button

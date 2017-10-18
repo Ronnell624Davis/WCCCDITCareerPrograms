@@ -11,30 +11,30 @@
     layout for the purpose of this app-->
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="205dp"
-        android:layout_height="205dp"
+        android:layout_width="215dp"
+        android:layout_height="215dp"
+        android:layout_marginTop="18dp"
+        app:srcCompat="@drawable/logo_wcccd"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="@dimen/wcccdImgMargin_Top"
-        app:srcCompat="@drawable/logo_wcccd" />
+        android:layout_centerHorizontal="true" />
 
     <Button
         android:id="@+id/appDevButton"
-        android:layout_width="@dimen/button_width"
-        android:layout_height="@dimen/button_height"
+        android:layout_width="130dp"
+        android:layout_height="49dp"
+        android:text="@string/TapHereButton"
+        android:textSize="11sp"
         android:layout_below="@+id/textView2"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="@dimen/buttonMarginTop"
-        android:text="@string/TapHereButton"
-        android:textSize="@dimen/nuttonText_Size" />
+        android:layout_marginTop="53dp" />
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="@dimen/textOverView_width"
-        android:layout_height="83dp"
+        android:layout_width="310dp"
+        android:layout_height="93dp"
         android:layout_below="@+id/imageView"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="@dimen/textOverViewMargin_Top"
+        android:layout_marginTop="28dp"
         android:gravity="left"
         android:text="@string/AppDev_OverView"
         android:textSize="17sp" />

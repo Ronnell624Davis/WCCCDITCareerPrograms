@@ -8,8 +8,8 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="205dp"
-        android:layout_height="205dp"
+        android:layout_width="215dp"
+        android:layout_height="215dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="@dimen/wcccdImgMargin_Top"
@@ -17,22 +17,22 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="@dimen/textOverView_width"
-        android:layout_height="123dp"
+        android:layout_width="310dp"
+        android:layout_height="125dp"
         android:layout_below="@+id/imageView2"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="@dimen/textOverViewMargin_Top"
+        android:layout_marginTop="16dp"
         android:gravity="left"
         android:text="@string/DatabaseAdmin_OverView"
-        android:textSize="@dimen/overviewTextSize" />
+        android:textSize="17sp" />
 
     <Button
         android:id="@+id/dataBaseButton"
-        android:layout_width="140dp"
-        android:layout_height="60dp"
-        android:text="@string/TapHereButton"
-        android:textSize="12sp"
+        android:layout_width="130dp"
+        android:layout_height="49dp"
         android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="25dp" />
+        android:layout_marginTop="18dp"
+        android:text="@string/TapHereButton"
+        android:textSize="11sp" />
 </RelativeLayout>
