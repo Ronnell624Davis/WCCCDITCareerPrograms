@@ -27,7 +27,7 @@
             android:layout_centerHorizontal="true"
             android:layout_marginBottom="50dp"
             android:gravity="center_horizontal"
-            android:paddingLeft="11dp"
+            android:paddingRight="18dp"
             android:paddingTop="6dp"
             android:text="@string/CisGeneral_InfoTitle"
             android:textColor="@android:color/white"
@@ -54,7 +54,7 @@
             android:paddingRight="10dp"
             android:paddingTop="9dp"
             android:text="@string/ContactUs_TextView"
-            android:textSize="20sp"
+            android:textSize="19sp"
             android:textStyle="bold" />
 
         <TextView
@@ -65,9 +65,11 @@
             android:autoLink="web"
             android:clickable="true"
             android:gravity="center_horizontal"
-            android:paddingLeft="18dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="22dp"
+            android:paddingTop="7dp"
             android:text="@string/CisPrograms_Contact"
-            android:textSize="20sp"
+            android:textSize="19sp"
             android:textStyle="bold|italic" />
 
     </TableRow>

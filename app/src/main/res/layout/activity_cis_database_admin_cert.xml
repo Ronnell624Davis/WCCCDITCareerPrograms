@@ -17,14 +17,14 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="@dimen/textOverView_width"
+        android:layout_width="310dp"
         android:layout_height="123dp"
         android:layout_below="@+id/imageView2"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="@dimen/textOverViewMargin_Top"
         android:gravity="left"
         android:text="@string/DatabaseAdmin_OverView"
-        android:textSize="@dimen/overviewTextSize" />
+        android:textSize="17sp" />
 
     <Button
         android:id="@+id/dataBaseButton"

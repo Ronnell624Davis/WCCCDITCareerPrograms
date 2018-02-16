@@ -17,7 +17,7 @@
 
     <TextView
         android:id="@+id/textView8"
-        android:layout_width="@dimen/textOverView_width"
+        android:layout_width="310dp"
         android:layout_height="@dimen/textOverView_height"
         android:layout_below="@+id/imageView8"
         android:layout_centerHorizontal="true"
