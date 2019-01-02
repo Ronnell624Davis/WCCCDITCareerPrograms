@@ -30,11 +30,11 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="@dimen/textOverView_width"
+        android:layout_width="310dp"
         android:layout_height="83dp"
         android:layout_below="@+id/imageView"
-        android:layout_marginTop="@dimen/textOverViewMargin_Top"
-        android:gravity="left"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
         android:text="@string/AppDev_OverView"
         android:textSize="17sp" />
 

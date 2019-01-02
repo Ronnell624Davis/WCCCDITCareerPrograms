@@ -20,12 +20,13 @@
 
     <Button
         android:id="@+id/appDevButton"
-        android:layout_width="160dp"
-        android:layout_height="90dp"
-        android:text="@string/TapHereButton"
-        android:textSize="18sp"
+        android:layout_width="140dp"
+        android:layout_height="70dp"
         android:layout_below="@+id/textView2"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:text="@string/TapHereButton"
+        android:textSize="16sp" />
 
     <TextView
         android:id="@+id/textView2"
